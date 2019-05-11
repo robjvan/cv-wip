@@ -1,0 +1,397 @@
+@charset "utf-8";
+/*****
+2019 Rob Vandelinder
+
+Fonts used:
+Caveat
+Ubuntu
+Architects Daughter
+Neucha 
+
+Abel
+
+Dosis
+Kanit
+Stylish
+Yeon+Sung
+
+Colors used: (colorhunt.co palette #35497)
+#fff
+#333
+#303841 (dark grey)
+#3a4750 (light grey)
+#d72323 (red)
+
+*****/
+
+
+body {
+	color: #eee;
+	font-family: "Kanit", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Stylish', sans-serif;
+	font-weight: bold;
+}
+
+
+
+/*********************************************/
+/*****  Navbar  ******************************/
+/*********************************************/
+#navbar {
+	text-align: left;
+	text-size: 16px;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	color: #d72323;
+	font-size: 24px;
+}
+
+.navbar-brand:hover {
+	color: #d72323;
+}
+
+.nav-link {
+	margin: 0 10px;
+	line-height: 1;
+	color: #eee;
+}
+
+.nav-link:hover {
+	color: #aaa;
+}
+
+
+
+/*********************************************/
+/*****  Header  ******************************/
+/*********************************************/
+#header {
+	padding: 5% 15%;
+	background-color: #303841;
+	margin: 0;
+	text-align: center;
+}
+
+#header h3{
+	font-family: "Yeon Sung", sans-serif;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.jumbotron{
+/*
+	background-image: url("http://placekitten.com/800/700");
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
+	background-color: #303841;
+	margin: 0;
+} 
+
+#profile-pic {
+	margin-top: 25px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+	#profile-pic {
+		width: 150px;
+	}
+}
+
+
+
+/*********************************************/
+/*****  Skills  ******************************/
+/*********************************************/
+#skills {
+	padding: 3% 15%;
+	background-color: #eee;
+	color: #303841;
+}
+
+#skills .card {
+	margin: 10px 0;
+	border: solid 1px #d72323;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+	border-radius: 10px;
+	text-align: left;
+	font-family: 'Kanit', sans-serif;
+	line-height: 1.75;
+}
+
+#skills .card-title {
+	text-align: center;
+}
+
+.card-img-top {
+	height: 100px;
+}
+
+@media screen and (max-width: 767.98px) {
+	#tech-writing {
+		display: static;
+	}
+}
+
+@media screen and (max-width: 1199.98px) and (min-width: 768px) {
+	#tech-writing {
+		display: none;
+	}
+}
+
+
+
+/*********************************************/
+/*****  Experience  **************************/
+/*********************************************/
+#experience {
+	padding: 3% 15%;
+	background-color: #303841;
+}
+
+.counter
+{
+    background-color: #eee;
+    text-align: center;
+	border-radius: 15px;
+}
+
+.stats {
+	border-style: inset;
+	border-radius: 15px;
+	margin: 0;
+}
+
+.it-years,.projects,.code-lines {
+    margin-top: 10%;
+    margin-bottom: 10%;
+	
+}
+
+.counter-count
+{
+    font-size: 40px;
+	position: relative;
+    color: #d72323;
+    text-align: center;
+    line-height: 60px;
+	display: inline-block;
+}
+
+.it-p,
+.projects-p,
+.code-p {
+    font-size: 18px;
+    color: #303841;
+    line-height: 30px;
+}
+
+.job-company {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.job-info {
+	vertical-align: bottom;
+	line-height: 24px;
+/*	text-align: center;*/
+}
+
+.job-blurb {
+	color: #303841;
+}
+
+.job-years {
+	font-style: italic;
+}
+
+.job-title {
+/*	margin-left: 20px;*/
+	font-style: italic;
+}
+
+.jobs-container {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+	color: #d72323;
+}
+
+.job-timeline {
+	padding: 0;
+}
+
+ul.timeline {
+	margin: 6% 0;
+	list-style-type: none;
+    position: relative;
+	border-radius: 15px;
+	border-style: inset;
+	background-color: #eee;
+}
+
+ul.timeline:before {
+/*    margin: 3% 0;*/
+	content: ' ';
+    background: #303841; /* light grey line */
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 5% 0;
+    padding-left: 20px;
+	padding-right: 3%;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: #ccc;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #d72323; /*circle color */
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+/*********************************************/
+/*****  Education  ***************************/
+/*********************************************/
+#education {
+	padding: 3% 15%;
+	background-color: #eee;
+	color: #303841;
+}
+
+
+
+/*********************************************/
+/*****  References  **************************/
+/*********************************************/
+#references {
+	padding: 3% 15% 3%;
+	background-color: #303841;
+}
+
+#references img {
+	border-radius: 15px;
+	width: 150px;
+}
+
+@media screen and (max-width: 991.98px) {
+	#references img {
+		width: 100px;
+	}
+}
+
+#references .row {
+	margin: 50px 0; 
+}
+.ref-pic {
+	margin-top: 10px;
+}
+
+.figure-caption {
+	color: #d72323;	
+	font-weight: bold;
+}
+
+.reference-card {
+	border-style: inset; 
+	border-radius: 15px; 
+	background-color: #eee;
+	color: #303841;
+	font-style:italic;
+	font-family: "Ubuntu", sans-serif;
+	
+}
+
+.reference-quote {
+	text-align: left;
+	margin: 15px;
+}
+
+
+/*********************************************/
+/*****  Hobbies  *****************************/
+/*********************************************/
+#hobbies {
+	padding: 3% 15%;
+	background-color: #eee;
+	color: #303841;
+}
+
+
+
+/*********************************************/
+/*****  Contact/Footer  **********************/
+/*********************************************/
+#contact-footer {
+	padding: 3% 15% 2%;
+	background-color: #303841;
+}
+
+.social-logo {
+	margin: 75px 0px;
+	color: #d72323;
+}
+
+@media screen and (max-width: 991.98px) {
+	.social-logo {
+		margin: 25px 0px;
+	}
+}
+
+.footnote,
+.job-years {
+	font-style: italic;
+}
+
+.social-media {
+	margin: 0 15%;
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+	#skills,
+	#experience,
+	#education,
+	#references,
+	#hobbies,
+	#contact-footer {
+		padding: 5% 15%;
+	}
+	
+	.social-media {
+	margin: 0 5%;
+	}
+}
+
+@media screen and (max-width: 576.98px) {
+	.social-media {
+	margin: 0 0;
+	}
+}
