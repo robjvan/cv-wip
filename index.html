@@ -29,19 +29,19 @@
 
 <!-- start navbar ----------------------------------------------------->
 <section id="navbar">
-  <div class="navbar navbar-expand-lg fixed-top" style="background-color: #303841;"> <a class="navbar-brand" href="#">Rob Vandelinder</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="navbar-collapse collapse" id="navbar-content">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#header">About Me</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#experience">Experience</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#education">Education</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#references">References</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#hobbies">Hobbies</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact-footer">Contact</a> </li>
-      </ul>
-    </div>
+	<div class="navbar navbar-expand-lg fixed-top" style="background-color: #303841;"> <a class="navbar-brand" href="#">Rob Vandelinder</a>
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i> </button>
+		<div class="navbar-collapse collapse" id="navbar-content">
+			  <ul class="navbar-nav ml-auto">
+					<li class="nav-item active"> <a class="nav-link" href="#header">About Me</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#skills">Skills</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#experience">Experience</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#education">Education</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#references">References</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#hobbies">Hobbies</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#contact-footer">Contact</a> </li>
+			  </ul>
+		</div>
   </div>
 </section>
 <!-- end navbar -------------------------------------------------------> 
@@ -50,7 +50,7 @@
 <section id="header"> 
   <!-- jumbotron -->
   <div class="jumbotron jumbotron-fluid">
-    <div class="container"> <img src="images/profile-picture.jpg" id="profile-pic">
+    <div class="container"> <img src="images/profile-picture.jpg" id="profile-pic" alt="Picture of Rob">
       <h1>Hi, I'm Rob</h1>
       <div id="header-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
@@ -220,29 +220,12 @@
 	<div class="row">
 		<div class="col jobs-container">
 			<ul class="timeline">
-				<li>
-					<div class="job-info row">
-						<div class="job-company float-left col-lg">Spray-Net</div>
-						<div class="job-title col-lg">House painter/masker</div>
-						<div class="job-years float-right col-lg">Aug 2018 - Sep 2018</div>
-					</div>
-					<div class="job-blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</div>
-				</li>
+				
 				<li>
 					<div class="job-info row">
 						<div class="job-company float-left col-lg">Tech!Espresso</div>
 						<div class="job-title col-lg">Senior Mobile Technician</div>
 						<div class="job-years float-right col-lg">4 March, 2014</div>
-					</div>
-					<div class="job-blurb">
-						Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...
-					</div>
-				</li>
-				<li>
-					<div class="job-info row">
-						<div class="job-company float-left col-lg">Kelligrew Metals</div>
-						<div class="job-title col-lg">Flashings Installer</div>
-						<div class="job-years float-right col-lg">1 April, 2014</div>
 					</div>
 					<div class="job-blurb">
 						Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...
@@ -352,18 +335,102 @@
 
 <!-- start hobbies section -------------------------------------------->
 <section id="hobbies"> 
-  <!-- grid with icons? -->
-  <h2>Hobbies</h2>
-  <p>Gardening</p>
-  <p>Fishkeeping</p>
-  <p>Camping</p>
-  <p>Mountain biking</p>
-  <h2>Future Aspirations</h2>
-  <p>Skydiving</p>
-  <p>Spelunking</p>
-  <p>Kayaking</p>
-  <p>Scuba diving</p>
-  <p>Amateur racing</p>
+    <h2>Hobbies</h2>
+
+	<div class="hobby-grid">
+	<div class="row">
+	    <div class="col-lg-4">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2016/05/how-to-design-your-perfect-garden-1200x1200.jpg">
+					<div class="hobby-text">
+						<h3>GARDENING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://www.readersdigest.ca/wp-content/uploads/sites/14/2016/05/7-reasons-why-you-should-go-camping-this-summer-1200x1200.jpg">
+					<div class="hobby-text">
+						<h3>CAMPING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://www.thesprucepets.com/thmb/CmjcAaGMM7Z-A2sQnf6GxQj7NAg=/1000x1000/smart/filters:no_upscale()/Problems-Solved-with-Aquarium-Plants-57e851505f9b586c35937e46.jpg">
+					<div class="hobby-text">
+						<h3>FISHKEEPING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>MOUNTAIN BIKING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>SKYDIVING</h3>
+					</div>
+			</div>
+				</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>SPELUNKING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>SCUBA DIVING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4 col-sm-6">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+				<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>KAYAKING</h3>
+					</div>
+			</div>
+			</div>
+		</div>
+	    <div class="col-lg-4">
+		    <div class="card">
+				<div class="hobby-image" style="overflow:hidden;">
+					<img class="hover hobby-image-pic" src="https://cdn.shutterstock.com/shutterstock/videos/5276318/thumb/1.jpg">
+					<div class="hobby-text">
+						<h3>AMATEUR RACING</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </section>
 <!-- end hobbies section ----------------------------------------------> 
 
