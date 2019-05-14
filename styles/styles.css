@@ -196,19 +196,19 @@ h2 {
 
 .stat-box {
 	border-style: solid;
-	border-color: #303841;
-	border-left-width: 3px;		
-	border-right-width: 3px;
+	border-color: #4592af;
+	border-left-width: 1px;		
+	border-right-width: 1px;
 	border-bottom-width: 0px;
 	border-top-width: 0px;
 }
 
 @media screen and (max-width: 767.98px) {
 	.stat-box {
-		border-top-width: 3px;
-		border-bottom-width: 3px;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
   		border-style: solid;
-		border-color: #303841;
+		border-color: #4592af;
 		border-left-width: 0px;
 		border-right-width: 0px;
 	}
