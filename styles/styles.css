@@ -54,7 +54,10 @@ h2 {
 	font-size: 28px;
 }
 
-.navbar-brand:hover,
+.navbar-brand:hover {
+	color: #4592af;
+}
+
 .fa-bars,
 .nav-link,
 .navbar-toggler:hover {
