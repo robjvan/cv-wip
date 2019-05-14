@@ -50,7 +50,7 @@ h2 {
 
 .navbar-brand {
 	font-weight: bold;
-	color: #d72323;
+	color: #4592af;
 	font-size: 24px;
 }
 
@@ -138,7 +138,7 @@ h2 {
 
 .card {
 	margin: 10px 0;
-	border: solid 1px #d72323;
+	border: solid 1px #4592af;
 	-webkit-box-shadow: 0 10px 6px -6px #777;
 	-moz-box-shadow: 0 10px 6px -6px #777;
 	box-shadow: 0 10px 6px -6px #777;
@@ -221,7 +221,7 @@ h2 {
 {
     font-size: 40px;
 	position: relative;
-    color: #d72323;
+    color: #4592af;
     text-align: center;
     line-height: 60px;
 	display: inline-block;
@@ -265,7 +265,7 @@ h2 {
 	padding: 0;
 	margin: 0;
 	box-sizing: content-box;
-	color: #d72323;
+	color: #4592af;
 }
 
 .job-timeline {
@@ -284,7 +284,7 @@ ul.timeline {
 ul.timeline:before {
 /*    margin: 3% 0;*/
 	content: ' ';
-    background: #d72323; /* light grey line */
+    background: #4592af; /* light grey line */
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -305,7 +305,7 @@ ul.timeline > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #d72323; /*circle color */
+    border: 3px solid #4592af; /*circle color */
     left: 20px;
     width: 20px;
     height: 20px;
@@ -352,7 +352,7 @@ ul.timeline > li:before {
 }
 
 .figure-caption {
-	color: #d72323;	
+	color: #4592af;	
 	font-weight: bold;
 }
 
@@ -462,7 +462,7 @@ ul.timeline > li:before {
 
 .social-logo {
 	margin: 75px 0px;
-	color: #d72323;
+	color: #4592af;
 }
 
 @media screen and (max-width: 991.98px) {
