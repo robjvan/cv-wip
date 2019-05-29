@@ -1,4 +1,4 @@
-# Rob Vandelinder CV
+# Rob Vandelinder Digital CV
 
 Created in Dreamweaver using HTML, CSS, Bootstrap, and JS
 
