@@ -11,14 +11,14 @@ Yeon+Sung
 Colors used:
 #333
 #303841 (dark grey)
-#4592af (blue)
+#d72323 (red)
 
 *****/
 
 
 body {
 	color: #eee;
-	font-family: "Kanit", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -99,7 +99,7 @@ h2 {
 	font-family: "Yeon Sung", sans-serif;
 	font-style: italic;
 	font-size: 24px;
-        color: #4592af;
+	color: #4592af;
 }
 
 .jumbotron{
@@ -140,10 +140,6 @@ h2 {
 	object-fit: cover;
 }
 
-#skill h5 {
-        color: #4592af; 
-}
-
 .card {
 	margin: 10px 0;
 	border: solid 1px #4592af;
@@ -152,12 +148,13 @@ h2 {
 	box-shadow: 0 10px 6px -6px #777;
 	border-radius: 10px;
 	text-align: left;
-	font-family: 'Kanit', sans-serif;
 	line-height: 1.75;
 }
 
-#skills .card-title {
+.card-title {
 	text-align: center;
+	color: #4592af;
+	font-size: 1.5rem;
 }
 
 .card-img-top {
@@ -261,11 +258,16 @@ h2 {
 
 .job-years {
 	font-style: italic;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .job-title {
 /*	margin-left: 20px;*/
 	font-style: italic;
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .jobs-container {
@@ -320,6 +322,12 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
+.job-company,
+.job-title,
+.job-years {
+	line-height: 1.5;
+}
+
 
 
 /*********************************************/
@@ -329,6 +337,21 @@ ul.timeline > li:before {
 	padding: 7% 15%;
 	background-color: #eee;
 	color: #303841;
+}
+
+#education .card-header {
+	text-align: center;
+	color: #4592af;
+	font-weight: bold;
+	
+}
+
+#education .card {
+	text-align: center;
+}
+
+.course-title {
+	font-size: 1.5rem;
 }
 
 
