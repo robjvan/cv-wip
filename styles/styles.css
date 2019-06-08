@@ -29,7 +29,7 @@ h1 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
 	font-size: 48px;
-	
+
 }
 
 h2 {
@@ -45,7 +45,7 @@ h2 {
 /*********************************************/
 #navbar {
 	text-align: left;
-	text-size: 16px;
+	/* font-size: 16px; */
 }
 
 .navbar-brand {
@@ -110,7 +110,7 @@ h2 {
 */
 	background-color: #303841;
 	margin: 0;
-} 
+}
 
 #profile-pic {
 	margin-top: 25px;
@@ -199,7 +199,7 @@ h2 {
 .stat-box {
 	border-style: solid;
 	border-color: #4592af;
-	border-left-width: 1px;		
+	border-left-width: 1px;
 	border-right-width: 1px;
 	border-bottom-width: 0px;
 	border-top-width: 0px;
@@ -219,7 +219,7 @@ h2 {
 .it-years,.projects,.code-lines {
     margin-top: 10%;
     margin-bottom: 10%;
-	
+
 }
 
 .counter-count
@@ -343,7 +343,7 @@ ul.timeline > li:before {
 	text-align: center;
 	color: #4592af;
 	font-weight: bold;
-	
+
 }
 
 #education .card {
@@ -376,25 +376,25 @@ ul.timeline > li:before {
 }
 
 #references .row {
-	margin: 50px 0; 
+	margin: 50px 0;
 }
 .ref-pic {
 	margin-top: 10px;
 }
 
 .figure-caption {
-	color: #4592af;	
+	color: #4592af;
 	font-weight: bold;
 }
 
 .reference-card {
-	border-style: inset; 
-	border-radius: 15px; 
+	border-style: inset;
+	border-radius: 15px;
 	background-color: #eee;
 	color: #303841;
 	font-style:italic;
 	font-family: "Ubuntu", sans-serif;
-	
+
 }
 
 .reference-quote {
@@ -438,7 +438,7 @@ ul.timeline > li:before {
 	transition:1s;
 	border-radius: 10px;
 	object-fit: contain;
-}	
+}
 
 @media screen and (min-width: 530px) and (max-width: 991.98px) {
 	.hobby-image-pic-wide {
@@ -461,7 +461,7 @@ ul.timeline > li:before {
 		object-fit: contain;
 	}
 }
-	
+
 .hobby-image:hover .hobby-text {
 	opacity:1;
 	transition:1s;
@@ -520,7 +520,7 @@ ul.timeline > li:before {
 	#contact-footer {
 		padding: 5% 15%;
 	}
-	
+
 	.social-media {
 	margin: 0 5%;
 	}
