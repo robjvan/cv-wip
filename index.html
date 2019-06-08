@@ -18,7 +18,7 @@
 
 <!-- CSS Refs -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/styles.min.css">
 
 <!-- Favicon -->
 	<link rel="icon" href="images/favicon.ico">
@@ -26,7 +26,7 @@
 <!-- Google Fonts & Fontawesome -->
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Kanit|Stylish|Yeon+Sung" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	
+
 	<title>Rob Vandelinder Digital CV</title>
 </head>
 <body>
@@ -48,16 +48,10 @@
 		</div>
   </div>
 </section>
-	
-<script type="text/JavaScript">
- $('.nav-link').on('click',function() {
-  $('.navbar-collapse').collapse('hide');
-});
-</script>
-<!-- end navbar -------------------------------------------------------> 
+<!-- end navbar ------------------------------------------------------->
 
 <!-- start header ----------------------------------------------------->
-<section id="header"> 
+<section id="header">
   <div class="jumbotron jumbotron-fluid">
     <div class="container"> <img src="images/profile-picture.jpg" id="profile-pic" alt="Picture of Rob">
       <h1>Hi, I'm Rob</h1>
@@ -107,10 +101,10 @@
     </div>
   </div>
 </section>
-<!-- end Header  ------------------------------------------------------> 
+<!-- end Header  ------------------------------------------------------>
 
 <!-- start skills section  -------------------------------------------->
-<section id="skills"> 
+<section id="skills">
   <h2>Skills</h2>
   <div class="row">
     <div class="col-md-12 col-xl-7">
@@ -179,57 +173,45 @@
     </div>
   </div>
 </section>
-<!-- end skills section -----------------------------------------------> 
+<!-- end skills section ----------------------------------------------->
 
 <!-- start past experience section ------------------------------------>
 <section id="experience">
   <h2>Past Experience</h2>
   <!-- stats (projects, lines of code, etc) -->
-  <div class="counter">
+  <div class="counter" id="statsCounter">
     <div class="row stats">
       <div class="col-md-4">
         <div class="it-years">
           <p class="it-p">More than</p>
-          <p class="counter-count">10</p>
+          <p class="counter-count" id="yearsCount">0</p>
           <p class="it-p">years of IT experience.</p>
         </div>
       </div>
       <div class="col-md-4 stat-box">
         <div class="projects">
           <p class="projects-p">Participated in</p>
-          <p class="counter-count">12</p>
+          <p class="counter-count" id="projectCount">0</p>
           <p class="projects-p">professional projects.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="code-lines">
           <p class="code-p">More than</p>
-          <p class="counter-count">500</p>
+          <p class="counter-count" id="systemsCount">0</p>
           <p class="code-p">systems repaired or replaced.</p>
         </div>
       </div>
     </div>
   </div>
-	
-  <script type="text/javascript">
-	$('.counter-count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 5000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });	
-	</script> 
-	
+
+
+
 	<div class="container">
 	<div class="row">
 		<div class="col jobs-container">
 			<ul class="timeline">
-				
+
 				<li>
 					<div class="job-info row">
 						<div class="job-company float-left col-lg">Tech!Espresso</div>
@@ -261,7 +243,7 @@
 
 					</div>
 				</li>
-				
+
 				<li>
 					<div class="job-info row">
 						<div class="job-company float-left col-lg">The Employment Solution</div>
@@ -277,14 +259,14 @@
 		</div>
 	</div>
 </div>
-  
+
 </section>
-<!-- end past experience section --------------------------------------> 
+<!-- end past experience section -------------------------------------->
 
 <!-- start education section ------------------------------------------>
-<section id="education"> 
+<section id="education">
 	<h2>Education</h2>
-	
+
 	<div class="row">
 		<div class="col-xl-12">
 			<div class="card">
@@ -328,12 +310,12 @@
 			</div>
 		</div>
 	</div>
-	
+
 </section>
-<!-- end education section --------------------------------------------> 
+<!-- end education section -------------------------------------------->
 
 <!-- start references section ----------------------------------------->
-<section id="references"> 
+<section id="references">
   <h2>References</h2>
   <div class="row align-items-center reference-card">
     <div class="col-lg-6"> <img src="images/david.jpg" alt="Photo of David" class="ref-pic">
@@ -342,6 +324,7 @@
     <div class="col-lg-6">
       <p class="reference-quote">I got the pleasure of training and working with Rob during the Win Upgrades project for BFG here in Western Canada. By far he was the best person I ever had the privilege of training. He impressed me with his knowledge, his intuition, and his professional actions both in planning, learning and even adapting to changing situations. He's the Best Technician I think BFG ever let slip away...the fools! Being a former Capt. in the Armed Forces for years I don't impress easy. Rob is going to be the "Scotty" for whomever is able to score this talented Rockstar.</p>
     </div>
+
   </div><div class="row align-items-center reference-card">
     <div class="col-lg-6"> <img src="images/gurpreet.jpg" alt="Photo of Gurpreet" class="ref-pic">
       <p class="figure-caption">Gurpreet Cheema, Practice Lead, End User Support</p>
@@ -350,6 +333,7 @@
       <p class="reference-quote">Rob was an excellent worker - it was enjoyable to work with him. He was contractor with us and as the project was done, we had to end his contract. We would rehire him if the opportunity became available. I give him 9 out of 10.</p>
     </div>
   </div>
+
 	<div class="row align-items-center reference-card">
     <div class="col-lg-6"> <img src="images/dustin.jpg" alt="Photo of Dustin" class="ref-pic">
       <p class="figure-caption">Dustin Turner, ServiceNow Analyst</p>
@@ -358,6 +342,7 @@
       <p class="reference-quote">Rob is responsible, honest, and mature.  He has a commendable work-ethic.  I am proud to call him my former colleague and friend.  Robert is not prepared to accept mediocrity.  He has been a significant source of inspiration, and I would sincerely recommend his abilities.  Any employer would be lucky to have him on their team.</p>
     </div>
   </div>
+
   <div class="row align-items-center reference-card">
     <div class="col-lg-6"> <img src="images/dennis.jpg" alt="Photo of Dennis" class="ref-pic">
       <p class="figure-caption">Dennis Skuplik, Business Analyst</p>
@@ -366,11 +351,12 @@
       <p class="reference-quote">I know Robert as a result-driven, action-oriented professional who has an excellent ability to communicate, coordinate and deliver solutions.  Besides his regular work, he engaged himself in a number of projects to improve business procedures and documentation for the benefit of the whole team.  Robert is knowledgeable, dedicated and helpful; he is an excellent team player.  I strongly recommend Robert to any employer. </p>
     </div>
   </div>
+
 </section>
-<!-- end  references section ------------------------------------------> 
+<!-- end  references section ------------------------------------------>
 
 <!-- start hobbies section -------------------------------------------->
-<section id="hobbies"> 
+<section id="hobbies">
     <h2>Hobbies & Aspirations</h2>
 
 	<div class="hobby-grid">
@@ -468,23 +454,27 @@
 	</div>
 </div>
 </section>
-<!-- end hobbies section ----------------------------------------------> 
+<!-- end hobbies section ---------------------------------------------->
 
 <!-- start contact info/footer ---------------------------------------->
 <section id="contact-footer">
   <h2>Get In Touch</h2>
   <div class="row social-media">
-    <div class="col-4"><a href="mailto:robjvan@gmail.com"><i class="fas social-logo fa-at fa-3x"></i></a></div>
-    <div class="col-4"><a href="http://www.facebook.com/robjvan"><i class="fab social-logo fa-facebook fa-3x"></i></a></div>
-    <div class="col-4"><a href="http://www.github.com/robjvan"><i class="fab social-logo fa-github fa-3x"></i></a></div>
+    <div class="col-3"><a href="mailto:robjvan@gmail.com"><i class="fas social-logo fa-at fa-3x"></i></a></div>
+		<div class="col-3"><a href="https://www.linkedin.com/in/rob-vandelinder-200873187/"><i class="fab social-logo fa-linkedin fa-3x"></i></a></div>
+    <div class="col-3"><a href="http://www.facebook.com/robjvan"><i class="fab social-logo fa-facebook fa-3x"></i></a></div>
+    <div class="col-3"><a href="http://www.github.com/robjvan"><i class="fab social-logo fa-github fa-3x"></i></a></div>
   </div>
   <p><i class="fas fa-copyright"></i><em> 2019 Rob Vandelinder</em></p>
 </section>
 <!-- end contact info/footer ------------------------------------------>
-	
+
 <!-- Boostrap JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="jquery.waypoints.min.js"></script>
+	<script src="countUp.min.js"></script>
+	<script src="index.min.js"></script>
 </body>
 </html>
